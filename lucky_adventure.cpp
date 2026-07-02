@@ -28,3 +28,18 @@ int main() {
             score -= 1;
             std::cout << "Small penalty.\n";
         }
+
+        std::cout << "Current score: " << score << "\n";
+    }
+
+    std::cout << "\nFinal score: " << score << "\n";
+
+    if (score >= 15)
+        std::cout << "Excellent run!\n";
+    else if (score >= 8)
+        std::cout << "Nice effort!\n";
+    else
+        std::cout << "Try again!\n";
+
+    return 0;
+}
